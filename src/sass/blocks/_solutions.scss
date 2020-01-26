@@ -1,0 +1,44 @@
+.solutions {
+    background: url(../img/second_bg.png) center (center/cover) no-repeat;
+    .label {
+        padding-top: 79px;
+        padding-bottom: 25px;
+    }
+    &__tabs {
+        padding-bottom: 35px;
+        display: flex;
+        justify-content: center;
+    }
+    &__item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 843px;
+        height: 65px;
+        li {
+            padding: 0 26px 0 26px;
+            border-left: 1px solid #7c7c79;
+            a {
+                text-decoration: none;
+                color: #ffffff;
+                font-size: 14px;
+                &:hover {
+                    color: #00c2f0;
+                    font-weight: 700;
+                }
+            }
+        }
+        li:first-child {
+            border-left: none;
+        }
+    }
+    ul {
+        border: 1px solid #ffffff;
+        border-radius: 4px;
+    }
+    .macbook {
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 61px;
+    }
+}

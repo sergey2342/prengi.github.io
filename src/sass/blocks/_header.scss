@@ -1,0 +1,31 @@
+.header {
+    &__country {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        li {
+            display: flex;
+            margin-bottom: 19px;
+            .img {
+                display: block;
+                margin-top: 2px;
+                margin-right: 11px;
+            }
+        }
+        }
+    ul {
+        padding: 0;
+        margin-top: 19px;
+    }
+    &__text {
+        color: #242424;
+        font-size: 12px;
+        font-weight: 300;
+        span {
+            display: block;
+            font-size: 14px;
+            font-weight: 700; 
+        }
+    }
+}
+

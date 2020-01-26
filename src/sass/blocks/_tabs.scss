@@ -1,0 +1,54 @@
+.tabs {
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 79px;
+        margin-bottom: 50px;
+    }
+    &__item {
+        position: relative;
+        width: 360px;
+        height: 255px;
+        border: 1px solid #ececec;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__text {
+        position: relative;
+        top: -10px;
+        text-align: center;
+        color: #393939;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 26px;
+    }
+    &__bg_img img {
+        position: absolute;
+        left: 270px;
+        top: 162px;
+    }
+    &__arrow {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__label {
+        margin-top: 33px;
+        margin-bottom: 37px;
+        text-align: center;
+        color: #393939;
+        font-size: 48px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .row_2 {
+        margin: 0;
+        margin-bottom: 81px;
+    }
+    .text_2 {
+        font-weight: 700;
+    }
+}
