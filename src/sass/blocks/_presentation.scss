@@ -1,5 +1,13 @@
 .presentation {
     background: url(../img/main_bg.png) center (center/cover) no-repeat;
+    .nav {
+        #toggle {
+            display: none;
+        }
+    }
+    label {
+        display: none;
+    }
     &__nav {
         padding-top: 39px;
         margin-bottom: 27px;
@@ -23,21 +31,21 @@
             margin-left: 440px;
         }
     }
-    .presentation__descr {
+    &__descr {
         display: flex;
         justify-content: space-between;
     }
-    .presentation__item {
+    &__item {
         width: 50%;
     }
-    .presentation__title {
+    &__title {
         margin-top: 133px;
         color: #ffffff;
         font-size: 42px;
         font-weight: 400;
         line-height: 48px;
     }
-    .presentation__text {
+    &__text {
         margin-top: 27px;
         color: #ffffff;
         font-size: 24px;

@@ -4,7 +4,6 @@
         position: relative;
         display: flex;
         justify-content: center;
-        flex-wrap: wrap;
     }
     &__col {
         height: 580px;
@@ -12,6 +11,8 @@
     &__img {
         position: relative;
         z-index: 1;
+        width: 100%;
+        height: 580px;
     }
     &__item_1 {
         position: relative;
@@ -25,7 +26,7 @@
     }
     &__square {
         position: absolute;
-        left: 750px;
+        right: -40px;
         top: -30px;
         &_second {
             left: -41px;

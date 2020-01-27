@@ -59,14 +59,16 @@
     </header>
     <section class="presentation">
         <div class="container">
-            <nav>
-                <ul class="presentation__nav">
-                    <li><a href="#"><img src="icons/logo.png" alt="logo"></a></li>
-                    <li><a href="#">главная</a></li>
-                    <li><a href="#">Модули</a></li>
-                    <li><a href="#">Отрасли</a></li>
-                    <li><a href="#">О нас</a></li>
-                    <li><a href="#">Наши обязательства</a></li>
+            <nav class="nav">
+                <label for="toggle">&#9776;</label>
+                <input type="checkbox" id="toggle"/>
+                <ul class="presentation__nav menu">
+                    <li class="menu_item"><a href="#"><img src="icons/logo.png" alt="logo"></a></li>
+                    <li class="menu_item"><a href="#">главная</a></li>
+                    <li class="menu_item"><a href="#">Модули</a></li>
+                    <li class="menu_item"><a href="#">Отрасли</a></li>
+                    <li class="menu_item"><a href="#">О нас</a></li>
+                    <li class="menu_item"><a href="#">Наши обязательства</a></li>
                 </ul>
             </nav>
             <div class="presentation__descr">
@@ -84,17 +86,17 @@
             <div class="tabs__row">
                 <div class="tabs__item">
                     <div class="tabs__bg_img"><img src="img/tabs_bg_img.png" alt=""></div>
-                    <img src="img/tabs_1.png" alt="">
+                    <img class="main_img" src="img/tabs_1.png" alt="">
                     <div class="tabs__text">Нет оперативности<br> в принятии решений?</div>
                 </div>
                 <div class="tabs__item">
                     <div class="tabs__bg_img"><img src="img/tabs_bg_img.png" alt=""></div>
-                    <img src="img/tabs_2.png" alt="">
+                    <img class="main_img" src="img/tabs_2.png" alt="">
                     <div class="tabs__text">Нет учета и контроля<br> обслуживания?</div>
                 </div>
                 <div class="tabs__item">
                     <div class="tabs__bg_img"><img src="img/tabs_bg_img.png" alt=""></div>
-                    <img src="img/tabs_3.png" alt="">
+                    <img class="main_img" src="img/tabs_3.png" alt="">
                     <div class="tabs__text">Сложно строить прогнозы и<br> анализировать данные?</div>
                 </div>
             </div>
@@ -103,17 +105,17 @@
             <div class="tabs__row row_2">
                 <div class="tabs__item">
                     <div class="tabs__bg_img"><img src="img/tabs_bg_img.png" alt=""></div>
-                    <img src="img/tabs_4.png" alt="">
+                    <img class="main_img" src="img/tabs_4.png" alt="">
                     <div class="tabs__text text_2">Все затраты спланированы<br> и расписаны</div>
                 </div>
                 <div class="tabs__item">
                     <div class="tabs__bg_img"><img src="img/tabs_bg_img.png" alt=""></div>
-                    <img src="img/tabs_5.png" alt="">
+                    <img class="main_img" src="img/tabs_5.png" alt="">
                     <div class="tabs__text text_2">Корректная аналитика данных<br> online</div>
                 </div>
                 <div class="tabs__item">
                     <div class="tabs__bg_img"><img src="img/tabs_bg_img.png" alt=""></div>
-                    <img src="img/tabs_6.png" alt="">
+                    <img class="main_img" src="img/tabs_6.png" alt="">
                     <div class="tabs__text text_2">Простая интеграция с любым<br> Вашим ПО</div>
                 </div>
             </div>
@@ -208,8 +210,7 @@
                 <div class="col_1">
                     <div class="footer__title">О компании</div>
                     <img src="img/footer_logo.png" alt="">
-                    <div class="footer__descr">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.<br>
-                        Управление задачами
+                    <div class="footer__descr">Prengi - SaaS платформа, предназначенная для моделирования, оптимизации и управления бизнес-процессами (BPM), созданная компанией V&A Solutions Estonia, разработчиком систем автоматизации для бизнеса.
                     </div>
                 </div>
                 <div class="col_2">
@@ -217,17 +218,10 @@
                         <li><span class="footer__title">Модули</span></li>
                         <li><a href="#">Обслуживание</a></li>
                         <li><a href="#">Паспорт объекта</a></li>
-                        <li><a href="#">Автоматизация бизнес процессов (BPM)</a></li>
+                        <li><a href="#">Автоматизация процессов (BPM)</a></li>
                         <li><a href="#">Проектное управление (РРМ)</a></li>
                         <li><a href="#">Управление подрядчиками</a></li>
                         <li><a href="#">Персональный дашборд</a></li>
-                        <li><a href="#">Управление задачами</a></li>
-                        <li><a href="#">Управление алгоритмами</a></li>
-                        <li><a href="#">Управление качеством</a></li>
-                        <li><a href="#">Склад</a></li>
-                        <li><a href="#">Service desk</a></li>
-                        <li><a href="#">Календарь</a></li>
-                        <li><a href="#">Prengi market</a></li>
                     </ul>
                 </div>
                 <div class="col_3">
