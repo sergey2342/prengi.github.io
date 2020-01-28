@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="sass/style.scss">
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -14,7 +15,7 @@
     <header class="header">
         <div class="container">
             <ul class="header__country">
-                <li>
+                <li class="animated fadeInDown">
                     <div class="img"><img src="icons/ukraine.png" alt="ukraine"></div>
                     <div class="header__text">
                         <span>Ukraine</span>
@@ -22,7 +23,7 @@
                         hi@vasolutions.com.ua
                     </div>
                 </li>
-                <li>
+                <li class="animated fadeInDown">
                     <div class="img"><img src="icons/germany.png" alt="ukraine"></div>
                     <div class="header__text">
                         <span>Germany</span>
@@ -30,7 +31,7 @@
                         tel. +352 661 88 03 05
                     </div>
                 </li>
-                <li>
+                <li class="animated fadeInDown">
                     <div class="img"><img src="icons/estonia.png" alt="ukraine"></div>
                     <div class="header__text">
                         <span>Estonia</span>
@@ -38,7 +39,7 @@
                         tel. +352 661 88 03 05
                     </div>
                 </li>
-                <li>
+                <li class="animated fadeInDown">
                     <div class="img"><img src="icons/britain.png" alt="ukraine"></div>
                     <div class="header__text">
                         <span>Great Britain</span>
@@ -46,7 +47,7 @@
                         tel. +44 750 109 55 29
                     </div>
                 </li>
-                <li>
+                <li class="animated fadeInDown">
                     <div class="img"><img src="icons/luxemburg.png" alt="ukraine"></div>
                     <div class="header__text">
                         <span>Luxembourg</span>
@@ -63,57 +64,57 @@
                 <label for="toggle">&#9776;</label>
                 <input type="checkbox" id="toggle"/>
                 <ul class="presentation__nav menu">
-                    <li class="menu_item"><a href="#"><img src="icons/logo.png" alt="logo"></a></li>
-                    <li class="menu_item"><a href="#">главная</a></li>
-                    <li class="menu_item"><a href="#">Модули</a></li>
-                    <li class="menu_item"><a href="#">Отрасли</a></li>
-                    <li class="menu_item"><a href="#">О нас</a></li>
-                    <li class="menu_item"><a href="#">Наши обязательства</a></li>
+                    <li class="menu_item animated fadeInLeft"><a href="#"><img src="icons/logo.png" alt="logo"></a></li>
+                    <li class="menu_item animated fadeInRightBig"><a href="#">главная</a></li>
+                    <li class="menu_item animated fadeInRightBig"><a href="#tabs">Модули</a></li>
+                    <li class="menu_item animated fadeInRightBig"><a href="#solutions">Отрасли</a></li>
+                    <li class="menu_item animated fadeInRightBig"><a href="#advantages">О нас</a></li>
+                    <li class="menu_item animated fadeInRightBig"><a href="#variants">Наши обязательства</a></li>
                 </ul>
             </nav>
             <div class="presentation__descr">
-                <div class="presentation__item">
+                <div class="presentation__item animated fadeInLeft">
                     <div class="presentation__title">Управляй своим бизнесом через Smartphone</div>
                     <div class="presentation__text"><span>PRENGI</span> - Платформа для прозрачного управления бизнесом</div>
                     <button class="button">Получить доступ</button>
                 </div>
-                <div class="presentation__phone"><img src="icons/phone.png" alt="phone"></div>
+                <div class="presentation__phone animated fadeInRight"><img src="icons/phone.png" alt="phone"></div>
             </div>
         </div>
     </section>
-    <section class="tabs">
+    <section class="tabs" id="tabs">
         <div class="container">
             <div class="tabs__row">
-                <div class="tabs__item">
+                <div class="tabs__item wow fadeInUp">
                     <div class="tabs__bg_img"><img src="img/tabs_bg_img.png" alt=""></div>
                     <img class="main_img" src="img/tabs_1.png" alt="">
                     <div class="tabs__text">Нет оперативности<br> в принятии решений?</div>
                 </div>
-                <div class="tabs__item">
+                <div class="tabs__item wow fadeInUp">
                     <div class="tabs__bg_img"><img src="img/tabs_bg_img.png" alt=""></div>
                     <img class="main_img" src="img/tabs_2.png" alt="">
                     <div class="tabs__text">Нет учета и контроля<br> обслуживания?</div>
                 </div>
-                <div class="tabs__item">
+                <div class="tabs__item wow fadeInUp">
                     <div class="tabs__bg_img"><img src="img/tabs_bg_img.png" alt=""></div>
                     <img class="main_img" src="img/tabs_3.png" alt="">
                     <div class="tabs__text">Сложно строить прогнозы и<br> анализировать данные?</div>
                 </div>
             </div>
-            <div class="tabs__arrow"><img src="img/arrow_down.png" alt=""></div>
-            <div class="tabs__label">С PRENGI</div>
+            <div class="tabs__arrow wow fadeInUp"><img src="img/arrow_down.png" alt=""></div>
+            <div class="tabs__label wow fadeInUp">С PRENGI</div>
             <div class="tabs__row row_2">
-                <div class="tabs__item">
+                <div class="tabs__item wow fadeInUp">
                     <div class="tabs__bg_img"><img src="img/tabs_bg_img.png" alt=""></div>
                     <img class="main_img" src="img/tabs_4.png" alt="">
                     <div class="tabs__text text_2">Все затраты спланированы<br> и расписаны</div>
                 </div>
-                <div class="tabs__item">
+                <div class="tabs__item wow fadeInUp">
                     <div class="tabs__bg_img"><img src="img/tabs_bg_img.png" alt=""></div>
                     <img class="main_img" src="img/tabs_5.png" alt="">
                     <div class="tabs__text text_2">Корректная аналитика данных<br> online</div>
                 </div>
-                <div class="tabs__item">
+                <div class="tabs__item wow fadeInUp">
                     <div class="tabs__bg_img"><img src="img/tabs_bg_img.png" alt=""></div>
                     <img class="main_img" src="img/tabs_6.png" alt="">
                     <div class="tabs__text text_2">Простая интеграция с любым<br> Вашим ПО</div>
@@ -121,12 +122,12 @@
             </div>
         </div>
     </section>
-    <section class="solutions">
+    <section class="solutions" id="solutions">
         <div class="container">
-            <div class="label">Prengi предоставляет экспертные решения<br>
+            <div class="label wow fadeInUp">Prengi предоставляет экспертные решения<br>
                 для Вашей отрасли
             </div>
-            <div class="solutions__tabs">
+            <div class="solutions__tabs wow fadeInUp">
                 <ul class="solutions__item">
                     <li><a href="#">Prengi Production</a></li>
                     <li><a href="#">Prengi FMC</a></li>
@@ -136,60 +137,60 @@
                     <li><a href="#">Prengi HR</a></li>
                 </ul>
             </div>
-            <img class="macbook" src="img/macbook-air.png" alt="">
+            <img class="macbook wow fadeInRight" src="img/macbook-air.png" alt="">
         </div>
     </section>
-    <section class="advantages">
+    <section class="advantages" id="advantages">
         <div class="container">
-            <div class="label label_second">Преимущества Prengi для<br>
+            <div class="label label_second wow fadeInUp">Преимущества Prengi для<br>
                 Вашей отрасли</div>
                 <div class="advantages__row">
-                    <div class="advantages__col">
+                    <div class="advantages__col wow fadeInLeft">
                         <img src="img/advantages_img_1.png" alt="">
                         <div class="advantages__text">Возможность внедрения и<br> тестирования в реальном<br> времени</div>
                     </div>
-                    <div class="advantages__col">
+                    <div class="advantages__col wow fadeInRight">
                         <img src="img/advantages_img_2.png" alt="">
                         <div class="advantages__text">Система “Intellect”, учет уровня доступов</div>
                     </div>
-                    <div class="advantages__col">
+                    <div class="advantages__col wow fadeInLeft">
                         <img src="img/advantages_img_3.png" alt="">
                         <div class="advantages__text">Возможность использовать из<br> любой точки мира с любого<br> устройства</div>
                     </div>
-                    <div class="advantages__col">
+                    <div class="advantages__col wow fadeInRight">
                         <img src="img/advantages_img_4.png" alt="">
                         <div class="advantages__text">Нет необходимости установки<br> и стационарной работы<br> программиста</div>
                     </div>
-                    <div class="advantages__col">
+                    <div class="advantages__col wow fadeInLeft">
                         <img src="img/advantages_img_5.png" alt="">
                         <div class="advantages__text">“Живые”<br> бизнес-процессы</div>
                     </div>
-                    <div class="advantages__col">
+                    <div class="advantages__col wow fadeInRight">
                         <img src="img/advantages_img_6.png" alt="">
                         <div class="advantages__text">Никаких предоплат, оплата<br> после старта</div>
                     </div>
                 </div>
         </div>
     </section>
-    <section class="variants">
+    <section class="variants" id="variants">
         <div class="label label_third">Варианты развертывания<br> Ваших данных</div>
         <div class="variants__row">
-            <div class="variants__col">
+            <div class="variants__col wow zoomIn">
                 <img class="variants__img" src="img/variants_img_1.png" alt="">
                 <div class="variants__item_1">
                     <div class="variants__text">Облачное хранилище</div>
                     <div class="variants__descr">Это выделенное пользователю пространство на жестком<br>
-                        диске сервера, находящегося в Интернете.
+                        диске сервера.
                     </div>
                     <div><img src="img/square_blue.png" alt="" class="variants__square"></div>
                 </div>
             </div>
-            <div class="variants__col">
+            <div class="variants__col wow zoomIn">
                 <img class="variants__img" src="img/variants_img_2.png" alt="">
                 <div class="variants__item_2">
                     <div class="variants__text variants__text_2">Размещение на сервере</div>
                     <div class="variants__descr variants__descr_2">Услуга аренды пространства в центре обработки данных<br>
-                        (колокация серверов) предназначена для клиентов
+                         предназначена для клиентов
                     </div>
                     <div><img src="img/square_blue.png" alt="" class="variants__square variants__square_second"></div>
                 </div>
@@ -198,15 +199,15 @@
     </section>
     <section class="start">
         <div class="container">
-            <div class="start__img"><img src="img/start_img.png" alt=""></div>
-            <div class="label label_fourth">Приступить очень просто!<br>
+            <div class="start__img wow fadeInUp"><img src="img/start_img.png" alt=""></div>
+            <div class="label label_fourth wow fadeInUp">Приступить очень просто!<br>
                 Нужно получить доступ и начать работу!</div>
-            <div class="start__button"><button class="button button_second">связаться с нами</button></div>
+            <div class="start__button wow fadeInUp"><button class="button button_second">связаться с нами</button></div>
         </div>
     </section>
     <footer class="footer">
         <div class="container">
-            <div class="row">
+            <div class="row wow fadeInUp">
                 <div class="col_1">
                     <div class="footer__title">О компании</div>
                     <img src="img/footer_logo.png" alt="">
@@ -246,8 +247,15 @@
                 </div>
             </div>
             <div class="footer__line"></div>
-            <div class="footer__inc">© Prengi Ink. 2008-2017 Все права защищены.</div>
+            <div class="footer__inc wow fadeInUp">© Prengi Ink. 2008-2017 Все права защищены.</div>
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
